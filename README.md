@@ -26,3 +26,16 @@ CodeAtlas is built on a modular architecture:
 
 ## 🤝 Contributing
 Pull requests are welcome! If you have ideas for adding dependency radius mapping, session saving, or new syntax formats, feel free to fork the repository and submit a PR.
+
+## 🗺️ CodeAtlas Roadmap (V2 Features)
+Here are the upcoming features planned for the next major iterations of CodeAtlas. Contributions and Pull Requests for these features are highly encouraged!
+
+⚡ Session Saving & Snapshots: Save your current file selections as named presets (e.g., "Auth Debugging", "Database Schema Context") so you can instantly re-compile specific file sets without checking boxes manually every time.
+
+📊 Dependency Radius Mapping: Select a single primary file, and let CodeAtlas automatically analyze its internal import statements to recommend or auto-select the exact files it depends on.
+
+🔄 Bidirectional Token Counter: Integrate a local tokenizer mechanism to preview the exact token count and estimated cost of your compiled Markdown packet before pasting it into an LLM.
+
+🧩 Framework-Specific Smart Presets: Quick-toggle filters optimized for popular ecosystems (like Next.js, Django, or Spring Boot) to instantly ignore framework noise or isolate core state files.
+
+🖥️ True Borderless/Tray Execution: An option to let CodeAtlas run silently in your Windows System Tray, accessible via a global keyboard shortcut (e.g., Ctrl + Shift + A) for instant context generation while coding.
