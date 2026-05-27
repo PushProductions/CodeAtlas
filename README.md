@@ -41,3 +41,11 @@ Here are the upcoming features planned for the next major iterations of CodeAtla
 🧩 Framework-Specific Smart Presets: Quick-toggle filters optimized for popular ecosystems (like Next.js, Django, or Spring Boot) to instantly ignore framework noise or isolate core state files.
 
 🖥️ True Borderless/Tray Execution: An option to let CodeAtlas run silently in your Windows System Tray, accessible via a global keyboard shortcut (e.g., Ctrl + Shift + A) for instant context generation while coding.
+
+## Future Development
+
+### Standardized Repository Context Structure
+CodeAtlas will support a standardized internal context structure for generated `LLM_CONTEXT.md` files. Rather than exporting raw code alone, the system will organize repository intelligence into predictable sections such as architecture summaries, dependency relationships, file metadata, project constraints, active tasks, and subsystem descriptions. This structured format is designed to improve LLM comprehension, reduce hallucinations, increase prompt consistency, and enable future interoperability with AI agents and automated tooling.
+
+### Automated AI Context Pipelines
+Future versions of CodeAtlas will support automated AI development pipelines powered by machine-readable context exports such as `LLM_CONTEXT.json`. These pipelines will allow external tools and coding agents to automatically consume repository structure, dependency maps, architectural metadata, and task-specific context. This opens the door to advanced workflows including automated code reviews, intelligent refactoring, architecture analysis, semantic repository search, autonomous debugging, and persistent AI-assisted development sessions.
