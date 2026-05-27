@@ -1,5 +1,7 @@
 # 🗺️ CodeAtlas
 
+CodeAtlas is a visual repository intelligence tool that helps developers generate optimized LLM context from large codebases.
+
 CodeAtlas is a lightning-fast, local developer tool that visually maps your project's directory structure and compiles selected files into unified, highly-optimized Markdown packets for Large Language Models (LLMs). 
 
 Tired of copying and pasting individual files to give your AI context? CodeAtlas acts as a visual shopping cart for your codebase.
